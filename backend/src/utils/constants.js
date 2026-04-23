@@ -1,0 +1,27 @@
+const ROLES = {
+  ADMIN: "ADMIN",
+  DEVELOPER: "DEVELOPER",
+  TESTER: "TESTER",
+  /** Internal / seed only — security monitoring, not assignable via public signup */
+  SECURITY_TEAM: "SECURITY_TEAM",
+};
+
+const PERMISSIONS = {
+  CREATE_BUG: "CREATE_BUG",
+  UPDATE_BUG: "UPDATE_BUG",
+  DELETE_BUG: "DELETE_BUG",
+  ASSIGN_BUG: "ASSIGN_BUG",
+  VIEW_BUG: "VIEW_BUG",
+  ADD_COMMENT: "ADD_COMMENT",
+  VIEW_AUDIT_LOGS: "VIEW_AUDIT_LOGS",
+  VIEW_SECURITY_DASHBOARD: "VIEW_SECURITY_DASHBOARD",
+};
+
+const BUG_STATUS = {
+  OPEN: "OPEN",
+  IN_PROGRESS: "IN_PROGRESS",
+  RESOLVED: "RESOLVED",
+  CLOSED: "CLOSED",
+};
+
+module.exports = { ROLES, PERMISSIONS, BUG_STATUS };
