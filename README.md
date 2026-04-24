@@ -122,3 +122,5 @@ Frontend runs on `http://localhost:5173`.
 - `GET /api/security/audit-logs` — **SECURITY_TEAM only**
 - `GET /api/audit/logs` — alias of audit-logs, **SECURITY_TEAM only**
 - `GET /api/logs/failed-logins` — dashboard-style failed-login summary, **SECURITY_TEAM only**
+
+## **The ADMIN and SECURITY_TEAM can't be added by the user like DEVELOPER and TESTER**
